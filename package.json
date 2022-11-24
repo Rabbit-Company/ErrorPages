@@ -1,0 +1,22 @@
+{
+  "name": "errorpages",
+  "version": "1.0.0",
+  "description": "The collection of error pages",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./tailwind.css -o ./website/css/tailwind.min.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rabbit-Company/ErrorPages.git"
+  },
+  "author": "Rabbit Company LLC",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Rabbit-Company/ErrorPages/issues"
+  },
+  "homepage": "https://github.com/Rabbit-Company/ErrorPages#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
